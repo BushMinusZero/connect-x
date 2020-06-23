@@ -5,6 +5,7 @@ from kaggle_environments import evaluate
 import numpy as np
 from tutorial1 import agent1, agent2
 from tutorial2 import agent3, agent4
+from tutorial3 import agent5
 
 
 # Selects random valid column
@@ -40,7 +41,7 @@ def get_win_percentages(a1, a2, n_rounds=100):
 
 
 def main():
-    get_win_percentages(a1=agent4, a2=agent3)
+    get_win_percentages(a1=agent4, a2=agent5)
 
 
 if __name__ == '__main__':
